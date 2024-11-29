@@ -70,9 +70,9 @@ const Conversor = () => {
               onChange={setFromCurrency}
               size="large"
             >
-              <Option value="USD">USD</Option>
-              <Option value="EUR">EUR</Option>
-              <Option value="BRL">BRL</Option>
+              <Option value="USD">Dólar</Option>
+              <Option value="EUR">Euro</Option>
+              <Option value="BRL">Real</Option>
             </Select>
             <Select
               defaultValue="BRL"
@@ -80,9 +80,9 @@ const Conversor = () => {
               onChange={setToCurrency}
               size="large"
             >
-              <Option value="USD">USD</Option>
-              <Option value="EUR">EUR</Option>
-              <Option value="BRL">BRL</Option>
+              <Option value="USD">Dolár</Option>
+              <Option value="EUR">Euro</Option>
+              <Option value="BRL">Real</Option>
             </Select>
           </div>
           <Button
