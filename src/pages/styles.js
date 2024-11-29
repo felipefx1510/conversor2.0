@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { Menu } from 'antd';
 
 const Header = styled(Menu)`
@@ -27,5 +27,22 @@ const StyledCard = styled.div`
   text-align: center;
 `;
 
-export { Header, Container, StyledCard };
-    
+const rgbAnimation = keyframes`
+  0% { color: #ff0000; }
+  33% { color: #00ff00; }
+  66% { color: #0000ff; }
+  100% { color: #ff0000; }
+`;
+
+const Footer = styled.footer`
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f2f5;
+  color: #888;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  animation: ${rgbAnimation} 5s infinite;
+`;
+
+export { Header, Container, StyledCard, Footer };
