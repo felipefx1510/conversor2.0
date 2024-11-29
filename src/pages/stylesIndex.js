@@ -43,6 +43,22 @@ const Footer = styled.footer`
   bottom: 0;
   width: 100%;
   animation: ${rgbAnimation} 5s infinite;
+  &:hover .jogo {
+    display: block;
+  }
 `;
 
-export { Header, Container, StyledCard, Footer };
+const JogoMemoriaContainer = styled.div`
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+`;
+
+export { Header, Container, StyledCard, Footer, JogoMemoriaContainer };

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Input, Select, Button, Typography, Menu } from 'antd';
 import { Link } from 'react-router-dom';
-import { Header, Container, StyledCard, Footer } from './styles';
+import { Header, Container, StyledCard, Footer, JogoMemoriaContainer } from './stylesIndex';
+import JogoMemoria from './Memoria';
 
 const { Option } = Select;
 const { Title, Text } = Typography;
@@ -47,7 +48,7 @@ const Conversor = () => {
           <Link to="/">Trabalhe conosco</Link>
         </Menu.Item>
         <Menu.Item key="about">
-          <Link to='/'>Sobre</Link>
+          <Link to="/">Sobre</Link>
         </Menu.Item>
       </Header>
       <Container>
@@ -108,6 +109,9 @@ const Conversor = () => {
       </Container>
       <Footer>
         Feito por Felipe :) - 2024
+        <JogoMemoriaContainer className="jogo">
+          <JogoMemoria />
+        </JogoMemoriaContainer>
       </Footer>
     </div>
   );
