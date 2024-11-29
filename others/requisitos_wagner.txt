@@ -1,0 +1,8 @@
+Site completo utilizando conceitos da AV01, A02 e AV03
+Flexbox
+GridLayout (opcional)
+Responsividade
+CSS3
+1 funcionalidade com JS
+Será considerado todo esforço ao projeto.
+
