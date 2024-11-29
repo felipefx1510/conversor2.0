@@ -108,7 +108,7 @@ const Conversor = () => {
         </StyledCard>
       </Container>
       <Footer>
-        Feito por Felipe :) - 2024
+        Desenvolvido por Felipe ( ͡° ͜ʖ ͡°)ﾉ⌐■-■
         <JogoMemoriaContainer className="jogo">
           <JogoMemoria />
         </JogoMemoriaContainer>
